@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 82px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    align-items: center;
+    border-bottom:4px solid rgb(224,228,231);
+}
+.navSec1{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navSec1 a{
+    text-decoration: none;
+}
+.navSec1 a:hover{
+    color: RGB(0, 117, 74);
+}
+.navSec2{
+    width: 20%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.searchdiv{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+.navSearch{
+    width: 22px;
+}
+.searchdiv input{
+    width: 80%;
+    padding: 4px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
