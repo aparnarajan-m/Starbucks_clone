@@ -1,15 +1,15 @@
 import React from 'react'
 import './Navbar.css'
-import starbucksLogo from './assets/starbucksLogo.png'
-import searchIcon from './assets/searchIcon.svg'
-import profile from './assets/profileIcon.svg'
+import starbucksLogo from '/src/assets/starbucksLogo.png'
+import searchIcon from '/src/assets/searchIcon.svg'
+import profile from '/src/assets/profileIcon.svg'
 
 function Navbar() {
     return (
         <div>
             <nav className='container'>
                 <div className='navSec1'>
-                    <img src={starbucksLogo} alt="" />
+                    <img className='nav-starbuckslogo' src={starbucksLogo} alt="" />
                     <a href="">Home</a>
                     <a href="">Gift</a>
                     <a href="">Order</a>
@@ -18,7 +18,7 @@ function Navbar() {
                 </div>
                 <div className='navSec2'>
                     <div className='searchdiv'><img className='navSearch' src={searchIcon} alt="" /><input type="text" placeholder='Looking for something specific?'/> </div>
-                    <div><img src={profile} alt="" /></div>
+                    <div className='pro-div'><img className='profile' src={profile} alt="" /></div>
                 </div>
             </nav>
         </div>

@@ -3,7 +3,7 @@
     height: 85px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgb(30,57,50);
     color: rgb(242,239,222);
     font-size: 14px;
@@ -14,13 +14,22 @@
     sans-serif;
     line-height: 24px;
 }
-h5{
-    
+.top1{
+    width: 40%;
+    display: flex;
+    justify-content: start;
+}
+.top2{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+h5{  
 font-size: 20px;
 font-weight: 300px;
 }
-.home-container button{
-    width: 6%;
+.homebutton1{
+    width: 15%; 
     padding: 12px;
     font-size: 12px;
     font-weight: bold;
