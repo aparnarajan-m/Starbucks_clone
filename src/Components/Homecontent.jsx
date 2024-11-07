@@ -1,6 +1,13 @@
 import React from 'react'
 import './Homecontent.css'
 import dashboardbanner1 from '/src/assets/Dashboards_Banner_bg.png'
+import Bestseller from '/src/assets/Bestseller.webp'
+import Drinks from '/src/assets/Drinks.webp'
+import Food from '/src/assets/Food.webp'
+import Merchandise from '/src/assets/Merchandise.webp'
+import CoffeeAtHome from '/src/assets/CoffeeAtHome.webp'
+import ReadyToEat from '/src/assets/ReadyToEat.webp'
+
 
 function Homecontent() {
   return (
@@ -11,8 +18,8 @@ function Homecontent() {
       </div>
       <div className='home-content2'>
         <div className='slider'>
-          <div>
-            <img className='dasboardImg1' src={dashboardbanner1} alt="" />
+          <div className='dashboardImg-div'>
+            <img className='dashboardImg1' src={dashboardbanner1} alt="" />
           </div>
           <div>
             <p>introducing</p>
@@ -24,6 +31,17 @@ function Homecontent() {
           <div>
             <button>Know More</button>
           </div>
+        </div>
+      </div>
+      <div>
+        <h1>Handcrafted Curations</h1>
+        <div className='handcrafted-img-div'>
+          <img className='handcraftedImgs' src={Bestseller} alt="" />
+          <img className='handcraftedImgs' src={Drinks} alt="" />
+          <img className='handcraftedImgs' src={Food} alt="" />
+          <img className='handcraftedImgs' src={Merchandise} alt="" />
+          <img className='handcraftedImgs' src={CoffeeAtHome} alt="" />
+          <img className='handcraftedImgs' src={ReadyToEat} alt="" />
         </div>
       </div>
     </div>

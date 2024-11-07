@@ -7,7 +7,7 @@ import profile from '/src/assets/profileIcon.svg'
 function Navbar() {
     return (
         <div>
-            <nav className='container'>
+            <nav className='nav-container'>
                 <div className='navSec1'>
                     <img className='nav-starbuckslogo' src={starbucksLogo} alt="" />
                     <a href="">Home</a>
