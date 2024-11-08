@@ -7,16 +7,23 @@ import Food from '/src/assets/Food.webp'
 import Merchandise from '/src/assets/Merchandise.webp'
 import CoffeeAtHome from '/src/assets/CoffeeAtHome.webp'
 import ReadyToEat from '/src/assets/ReadyToEat.webp'
+// import Navbar from './Navbar'
 
 
 function Homecontent() {
   return (
+    <div>
+    {/* <Navbar/> */}
     <div className='contents'>
+
       <div className='home-content1'>
         <div className='top1'><h5>Starbucks</h5></div>
         <div className='top2'><button className='homebutton1'>Know More</button></div>
       </div>
+
+
       <div className='home-content2'>
+
         <div className='slider'>
           <div className='dashboardImg-div'>
             <img className='dashboardImg1' src={dashboardbanner1} alt="" />
@@ -32,7 +39,10 @@ function Homecontent() {
             <button>Know More</button>
           </div>
         </div>
+
       </div>
+
+
       <div>
         <h1>Handcrafted Curations</h1>
         <div className='handcrafted-img-div'>
@@ -44,9 +54,14 @@ function Homecontent() {
           <img className='handcraftedImgs' src={ReadyToEat} alt="" />
         </div>
       </div>
+
+
+    </div>
     </div>
 
   )
 }
 
 export default Homecontent
+
+
