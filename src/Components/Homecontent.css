@@ -1,13 +1,13 @@
 .contents{
-    background-color:aquamarine;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 4.9%;
 }
 /* ------------------------------------------------- */
 .home-content1{
     width: 100%;
+    /* height: 10%; */
     height: 85px;
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@ font-weight: 300px;
 /* ----------------------------------------------------- */
 .home-content2{
     width: 80%;
-    height: 40%;
+    height: 250px;
     border-radius: 10px;
     background-color:rgb(241,94,39);
     margin-top: 2.3%;
@@ -60,9 +60,21 @@ font-weight: 300px;
     SoDoSans_Regular (woff2)
     Helvetica
     sans-serif;
-}
-.slider{
     display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.content2-button-div{
+    display: flex;
+    align-items: end;
+}
+.home-content2-button1, .home-content2-button2{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 60%;
+    outline: none;
 }
 .dashboardImg-div{
     width: 10%;

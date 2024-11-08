@@ -21,10 +21,9 @@ function Homecontent() {
         <div className='top2'><button className='homebutton1'>Know More</button></div>
       </div>
 
-
+      
       <div className='home-content2'>
-
-        <div className='slider'>
+        <div><button className='home-content2-button1'>**</button></div>
           <div className='dashboardImg-div'>
             <img className='dashboardImg1' src={dashboardbanner1} alt="" />
           </div>
@@ -35,15 +34,16 @@ function Homecontent() {
             <h6>starting from</h6>
             <h3>$350.00</h3>
           </div>
-          <div>
+          <div className='content2-button-div'>
             <button>Know More</button>
           </div>
-        </div>
-
+        <div><button className='home-content2-button2' >**</button></div>
       </div>
 
+      
 
-      <div>
+
+{/*  <div>
         <h1>Handcrafted Curations</h1>
         <div className='handcrafted-img-div'>
           <img className='handcraftedImgs' src={Bestseller} alt="" />
@@ -53,8 +53,7 @@ function Homecontent() {
           <img className='handcraftedImgs' src={CoffeeAtHome} alt="" />
           <img className='handcraftedImgs' src={ReadyToEat} alt="" />
         </div>
-      </div>
-
+      </div> */}
 
     </div>
     </div>
