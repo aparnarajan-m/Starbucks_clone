@@ -15,64 +15,65 @@ function Footer() {
                 <div className='footer-sec1'>
                     <div className='footerLogo-div'><img className='footer-logo' src={starbucksLogo} alt="" /></div>
                     <div className="footerlist">
-                        <h3 className='footer-heading'>About</h3>
-                        <ul>
-                            <li><a href="">Our Heritage</a></li>
-                            <li><a href="">Coffeehouse</a></li>
-                            <li><a href="">Our Company</a></li>
+                        <h3 className='footer-heading'>About Us</h3>
+                        <ul className='footer-Ul'>
+                            <li className='footer-Li'><a className='footer-a' href="">Our Heritage</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Coffeehouse</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Our Company</a></li>
                         </ul>
                     </div>
                     <div className="footerlist">
                         <h3 className='footer-heading'>Responsibility </h3>
-                        <ul>
-                            <li><a href=""> Diversity </a></li>
-                            <li><a href=""> Community </a></li>
-                            <li><a href=""> Ethical Sourcing </a></li>
-                            <li><a href=""> Environmental Stewardship </a></li>
-                            <li><a href=""> Learn More </a></li>
+                        <ul className='footer-Ul'>
+                            <li className='footer-Li'><a className='footer-a' href=""> Diversity </a></li>
+                            <li className='footer-Li'><a className='footer-a' href=""> Community </a></li>
+                            <li className='footer-Li'><a className='footer-a' href=""> Ethical Sourcing </a></li>
+                            <li className='footer-Li'><a className='footer-a' href=""> Environmental Stewardship </a></li>
+                            <li className='footer-Li'><a className='footer-a' href=""> Learn More </a></li>
                         </ul>
                     </div>
                     <div className="footerlist">
                         <h3 className='footer-heading'>Quick Links</h3>
-                        <ul>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">FAQs</a></li>
-                            <li><a href="">Starbucks India Mobile App <br /> Terms of Use</a></li>
-                            <li><a href="">Customer Service</a></li>
-                            <li><a href="">Delivery</a></li>
-                            <li><a href="">Season's Gifting</a></li>
-                            <li><a href="">Loyalty Program Terms and <br /> Conditions</a></li>
-                            <li><a href="">Starbucks Rewards Day Offer</a></li>
-                            <li><a href="">Beverage Subscription</a></li>
-                            <li><a href="">Diwali Bonus Star Offer</a></li>
+                        <ul className='footer-Ul'>
+                            <li className='footer-Li'><a className='footer-a' href="">Privacy Policy</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">FAQs</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Starbucks India Mobile App <br /> Terms of Use</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Customer Service</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Delivery</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Season's Gifting</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Loyalty Program Terms and <br /> Conditions</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Starbucks Rewards Day Offer</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Beverage Subscription</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Diwali Bonus Star Offer</a></li>
+                            <li className='footer-Li'><a className='footer-a' href="">Beverage Subscription</a></li>
                         </ul>
                     </div>
-                    <div>
-                        <h1 className='socialmeadia-heading'>SOCIAL MEDIA</h1>
-                        <ul className='socialmediaImg-div'>
-                            <li><a href=""><img src={instagram} alt="" /></a></li>
-                            <li><a href=""><img src={facebook} alt="" /></a></li>
-                            <li><a href=""><img src={twitter} alt="" /></a></li>
+                    <div className='socialmedia-div'>
+                        <h2 className='socialmeadia-heading'>SOCIAL MEDIA</h2>
+                        <ul className='footer-Ul socialmediaImg-div'>
+                            <li className='footer-Li'><a href=""><img className='socialmediaImg' src={instagram} alt="" /></a></li>
+                            <li className='footer-Li'><a href=""><img className='socialmediaImg' src={facebook} alt="" /></a></li>
+                            <li className='footer-Li'><a href=""><img className='socialmediaImg' src={twitter} alt="" /></a></li>
                         </ul>
                     </div>
                     <div className='androidIos-div'>
-                        <a href=""><img src={ios} alt="" /></a>
-                        <a href=""><img src={android} alt="" /></a>
+                        <a href=""><img className='androIos' src={ios} alt="" /></a>
+                        <a href=""><img className='androIos' src={android} alt="" /></a>
                     </div>
                 </div>
 
                 <div className='footer-sec2'>
-                    <div>
-                        <ul>
-                            <li><a href="">Web Accessiblity</a></li>
-                            <li><a href="">Privacy Statement</a></li>
-                            <li><a href="">Terms of Use</a></li>
-                            <li><a href="">Terms of Use</a></li>
+                    <div className='sec2-bottom1'>
+                        <ul className='footer-Ul sec2-bottom1-ul'>
+                            <li className='footer-Li bottomLi liborder'><a className='bottomLi-a' href="">Web Accessiblity</a></li>
+                            <li className='footer-Li bottomLi liborder'><a className='bottomLi-a' href="">Privacy Statement</a></li>
+                            <li className='footer-Li bottomLi liborder'><a className='bottomLi-a' href="">Terms of Use</a></li>
+                            <li className='footer-Li bottomLi'><a className='bottomLi-a' href="">Contact Use</a></li>
                         </ul>
                     </div>
-                    <div>
-                        <ul>
-                            <li><a href="">© 2024 Starbucks Coffee Company. All rights reserved.</a></li>
+                    <div className='sec2-bottom2'>
+                        <ul className='footer-Ul'>
+                            <li className='bottom2Li'><a href="">© 2024 Starbucks Coffee Company. All rights reserved.</a></li>
                         </ul>
                     </div>
                 </div>
