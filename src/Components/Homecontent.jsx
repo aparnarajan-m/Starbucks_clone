@@ -1,6 +1,8 @@
 import React from 'react'
 import './Homecontent.css'
+import arrowLeft from '/src/assets/Arrow-left.png'
 import dashboardbanner1 from '/src/assets/Dashboards_Banner_bg.png'
+import arrowright from '/src/assets/Arrow-right.png'
 import Bestseller from '/src/assets/Bestseller.webp'
 import Drinks from '/src/assets/Drinks.webp'
 import Food from '/src/assets/Food.webp'
@@ -23,7 +25,7 @@ function Homecontent() {
 
       
       <div className='home-content2'>
-        <div><button className='home-content2-button1'>**</button></div>
+        <div><button className='home-content2-button1'><img src={arrowLeft} alt="" /></button></div>
           <div className='dashboardImg-div'>
             <img className='dashboardImg1' src={dashboardbanner1} alt="" />
           </div>
@@ -37,7 +39,7 @@ function Homecontent() {
           <div className='content2-button-div'>
             <button>Know More</button>
           </div>
-        <div><button className='home-content2-button2' >**</button></div>
+        <div><button className='home-content2-button2' ><img src={arrowright} alt="" /></button></div>
       </div>
 
       
