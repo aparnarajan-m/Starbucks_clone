@@ -7,6 +7,7 @@ import twitter from '/src/assets/twitter.svg'
 import android from '/src/assets/appstoreAndroid.png'
 import ios from '/src/assets/appstoreios.png'
 
+
 function Footer() {
     return (
         <div>

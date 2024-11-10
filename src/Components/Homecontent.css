@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     /* margin-top: 4.9%; */
+    box-sizing: border-box;
 }
 /* ------------------------------------------------- */
 .home-content1{
@@ -55,13 +56,11 @@ font-weight: 300px;
     background-color:rgb(241,94,39);
     margin-top: 2.3%;
     color: white;
-    font-size: 
-    20px;
+    font-size: 20px;
     font-family: 
     SoDoSans_Regular (woff2)
     Helvetica
     sans-serif;
-    display: flex;
     position: relative;
     display: flex;
     align-items: center;
