@@ -9,14 +9,12 @@ import Food from '/src/assets/Food.webp'
 import Merchandise from '/src/assets/Merchandise.webp'
 import CoffeeAtHome from '/src/assets/CoffeeAtHome.webp'
 import ReadyToEat from '/src/assets/ReadyToEat.webp'
-// import Navbar from './Navbar'
 
 
 function Homecontent() {
   return (
     <div>
-    {/* <Navbar/> */}
-    <div className='contents'>
+    <div className='home-contents'>
 
       <div className='home-content1'>
         <div className='top1'><h5>Starbucks</h5></div>
@@ -42,10 +40,7 @@ function Homecontent() {
         <div><button className='home-content2-button2' ><img src={arrowright} alt="" /></button></div>
       </div>
 
-      
-
-
-{/*  <div>
+        <div>
         <h1>Handcrafted Curations</h1>
         <div className='handcrafted-img-div'>
           <img className='handcraftedImgs' src={Bestseller} alt="" />
@@ -55,10 +50,10 @@ function Homecontent() {
           <img className='handcraftedImgs' src={CoffeeAtHome} alt="" />
           <img className='handcraftedImgs' src={ReadyToEat} alt="" />
         </div>
-      </div> */}
+      </div>
 
     </div>
-    </div>
+     </div>
 
   )
 }

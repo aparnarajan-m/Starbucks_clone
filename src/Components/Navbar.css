@@ -1,18 +1,9 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-.nav-container{
-    /* width: 100vw;
-    height: 100vh; */
-}
+
 .navbar{
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 11%;
     background-color: rgb(255,255,255);
     display: flex;
     justify-content: space-around;
@@ -21,7 +12,7 @@
     font-family: SoDoSans_Bold, Helvetica, sans-serif;
     overflow: hidden;
 }
-.navSec1{
+.nav-leftSec{
     width: 45%;
     display: flex;
     justify-content: space-evenly;
@@ -35,23 +26,23 @@
 
 }
 .nav-starbuckslogo{
-    width: 70%;
+    width: 75%;
 }
 .nav-a-div{
     width: 60%;
     display: flex;
     justify-content: space-between;
 }
-.navSec1 a{
+.nav-leftSec a{
     font-weight: 400;
     font-size: 1rem;
     text-decoration: none;
     color: black;
 }
-.navSec1 a:hover{
+.nav-leftSec a:hover{
     color: #00754a;
 }
-.navSec2{
+.nav-rightSec{
     width: 40%;
     justify-content: space-evenly;
     display: flex;
@@ -59,7 +50,7 @@
 }
 .nav-searchdiv{
     width: 41%;
-    padding: 9px;
+    padding: 1.2%;
     display: flex;
     justify-content: space-around;
     border-radius: 50px;
@@ -68,7 +59,7 @@
 .nav-searchdiv:active{
     outline: 1px solid black;
 }
-.navSearch{
+.navSearchImg{
     width: 8%;
 }
 .nav-searchdiv input{
@@ -80,28 +71,24 @@
 }
 
 
-/* Add responsive styles */
+/* ----------------------Responsive styles-------------------- */
 
 @media (max-width: 1024px) {
-    .nav-container {
-        height: auto;
-        text-align: center;
-    }
     .navbar {
         height: auto; 
         justify-content: space-between;
         padding: 10px;
         flex-direction: column;
     }
-    .navSec1{
+    .nav-leftSec{
         width: 90%; 
         flex-direction: column; 
         align-items: center;
     }
-    .navSec2{
+    .nav-rightSec{
         display: flex;
     }
-    .navSec1 a, .navSec2 a {
+    .nav-leftSec a, .nav-rightSec a {
         margin: 3%;
         font-size: 0.9rem;
     }
@@ -110,8 +97,44 @@
     }
     .nav-searchdiv {
         width: 75%; 
-    }
-    .nav-searchdiv input {
-        width: 60%; 
+        padding: 1.6%;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 2%;
+    }
+    .nav-leftSec, .nav-rightSec {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-leftSec a, .nav-rightSec a {
+        font-size: 0.9rem;
+    }
+    .nav-searchdiv {
+        width: 60%;
+        margin: 1%;
+    }
+    .nav-starbuckslogo-div {
+        width: 12%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px;
+    }
+    .nav-leftSec a, .nav-rightSec a {
+        font-size: 0.75rem;
+    }
+    .nav-searchdiv{
+        padding: 1%;
+        
+    }
+    .nav-starbuckslogo-div {
+        width: 15%;
+    }
+}
+

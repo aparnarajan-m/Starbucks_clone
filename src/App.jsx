@@ -4,18 +4,22 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
 
 function App() {
 
 
   return (
     <>
-      <div className='main-Container'>
-        <Navbar/>
+      {/* <div className='main-Container'> */}
+        <div className='navbar-container'>
+          <Navbar/>
+          </div>
+        <div className='body-Containers'>
         <Home/>
-        <Footer/>
-      </div>
+        {/* <Footer/> */}
+        </div>
+      {/* </div> */}
     </>
   )
 }

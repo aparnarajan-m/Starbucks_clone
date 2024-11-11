@@ -1,16 +1,18 @@
-.contents{
-    /* height: 100vh; */
+.home-contents{
+    width: 100%;
+    /* width: 100vw;
+    height: 100vh; */
+    padding: 0px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 4.9%; */
     box-sizing: border-box;
 }
-/* ------------------------------------------------- */
 .home-content1{
     width: 100%;
-    /* height: 10%; */
-    height: 85px;
+    padding: 1% 0;
+    /* height: 85px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +63,6 @@ font-weight: 300px;
     SoDoSans_Regular (woff2)
     Helvetica
     sans-serif;
-    position: relative;
     display: flex;
     align-items: center;
 }

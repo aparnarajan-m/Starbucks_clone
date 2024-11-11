@@ -6,9 +6,9 @@ import profile from '/src/assets/profileIcon.svg'
 
 function Navbar() {
     return (
-        <div className='nav-container'>
+        <div>
             <nav className='navbar'>
-                <div className='navSec1'>
+                <div className='nav-leftSec'>
                     <div className='nav-starbuckslogo-div'><img className='nav-starbuckslogo' src={starbucksLogo} alt="" /></div>
                     <div className='nav-a-div'>
                     <a href="">Home</a>
@@ -18,8 +18,8 @@ function Navbar() {
                     <a href="">Store</a>
                     </div>
                 </div>
-                <div className='navSec2'>
-                    <div className='nav-searchdiv'><img className='navSearch' src={searchIcon} alt="" /><input type="text" placeholder='Looking for something specific?'/> </div>
+                <div className='nav-rightSec'>
+                    <div className='nav-searchdiv'><img className='navSearchImg' src={searchIcon} alt="" /><input type="text" placeholder='Looking for something specific?'/> </div>
                     <div className='pro-div'><img className='profile' src={profile} alt="" /></div>
                 </div>
             </nav>
