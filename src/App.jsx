@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='app-container'>
         <div className='app-navbar-div'><Navbar/></div>
         <Home />
         {/* <Footer/> */}

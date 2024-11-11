@@ -40,6 +40,25 @@ function Homecontent() {
         <div><button className='home-content2-button2' ><img src={arrowright} alt="" /></button></div>
       </div>
 
+      <div className='home-content2'>
+        <div><button className='home-content2-button1'><img src={arrowLeft} alt="" /></button></div>
+          <div className='dashboardImg-div'>
+            <img className='dashboardImg1' src={dashboardbanner1} alt="" />
+          </div>
+          <div>
+            <p>introducing</p>
+            <h1>Gift A Starbucks</h1>
+            <p> This festive season, we bring to you the perfect gifting story from our India exclusive limited-edition range </p>
+            <h6>starting from</h6>
+            <h3>$350.00</h3>
+          </div>
+          <div className='content2-button-div'>
+            <button>Know More</button>
+          </div>
+        <div><button className='home-content2-button2' ><img src={arrowright} alt="" /></button></div>
+      </div>
+      
+
     </div>
      </div>
 
