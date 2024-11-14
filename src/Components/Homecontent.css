@@ -1,17 +1,15 @@
 .home-contents{
     width: 100%;
-    height: 100vh;
-    padding: 0px;
-    margin: 0px;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    /* margin-top: 5%; */
+    margin-top: 83px;
 }
-.home-content1{
+.home-contentTop{
     width: 100%;
-    height: 15%;
+    height: 86px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +21,6 @@
     SoDoSans_Semibold (woff2)
     Helvetica
     sans-serif;
-    line-height: 24px;
 }
 .top1{
     width: 40%;
@@ -50,10 +47,18 @@ font-weight: 300px;
     background-color: transparent;
 }
 /* ----------------------------------------------------- */
+.home-contentBottom{
+    width: 100%;
+    height: 300px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
 .home-content2{
     width: 80%;
-    height: 32%;
-    /* height: 250px; */
+    height: 245px;
     border-radius: 10px;
     background-color:rgb(241,94,39);
     margin-top: 2.3%;
@@ -67,30 +72,44 @@ font-weight: 300px;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+
 }
-.home-content2-button1, .home-content2-button2{
-    /* width: 10%; */
+.arrowleft-btn, .arrowright-btn{
     padding: 11px;
     background-color: white;
     border-radius: 60%;
     border-style: none;
 }
-.home-content2-button1{
+.arrowleft-btn{
     position: absolute;
-    right: 98%;
+    right: 89%;
+    z-index: 1;
 }
-.home-content2-button2{
+.arrowright-btn{
     position: absolute;
-    left: 98%;
+    left: 89%;
 }
 .dashboardImg-div{
     width: 10%;
 }
 .dashboardImg1{
-    width: 40%;
+    width: 85%;
 }
-
 .handcraftedImgs{
     width: 15%;
     border-radius: 60px;
 } 
+.home-content2-textContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-between; */
+}
+.content2-btn{
+    padding: 17px 80px;
+    background-color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}

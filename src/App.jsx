@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Components/Navbar'
+// import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 // import Footer from './Components/Footer'
 
@@ -10,9 +10,8 @@ function App() {
   return (
     <>
       <div className='app-container'>
-        <div className='app-navbar-div'><Navbar/></div>
+        {/* <Navbar/> */}
         <Home />
-        {/* <Footer/> */}
       </div>
     </>
   )
