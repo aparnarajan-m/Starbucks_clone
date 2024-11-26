@@ -3,15 +3,24 @@ import './Homecontent.css'
 import arrowLeft from '/src/assets/Arrow-left.png'
 import dashboardbanner1 from '/src/assets/Dashboards_Banner_bg.png'
 import arrowright from '/src/assets/Arrow-right.png'
-// import Bestseller from '/src/assets/Bestseller.webp'
-// import Drinks from '/src/assets/Drinks.webp'
-// import Food from '/src/assets/Food.webp'
-// import Merchandise from '/src/assets/Merchandise.webp'
-// import CoffeeAtHome from '/src/assets/CoffeeAtHome.webp'
-// import ReadyToEat from '/src/assets/ReadyToEat.webp'
+import Bestseller from '/src/assets/Bestseller.webp'
+import Drinks from '/src/assets/Drinks.webp'
+import Food from '/src/assets/Food.webp'
+import Merchandise from '/src/assets/Merchandise.webp'
+import CoffeeAtHome from '/src/assets/CoffeeAtHome.webp'
+import ReadyToEat from '/src/assets/ReadyToEat.webp'
 
 
 function Homecontent() {
+  let handcrafted = [
+    {url:Bestseller, heading:"Bestseller"},
+    {url:Drinks, heading:"Drinks"},
+    {url:Food, heading:"Food"},
+    {url:Merchandise, heading:"Merchandise"},
+    {url:CoffeeAtHome, heading:"Coffee At Home"},
+    {url:ReadyToEat, heading:"Ready To Eat"}
+  ];
+
   return (
     <div className='home-contents'>
 
@@ -49,6 +58,25 @@ function Homecontent() {
         <div><button className='arrowright-btn' ><img src={arrowright} alt="" /></button></div>
       </div>
 
+
+      <div className='handcraftedDiv'>
+        <div className='handcraftedSubdiv'>
+          <div className='headingdiv'>
+            <h1>Handcrafted Curation</h1>
+            </div>
+
+          <div className='handcraftedItemsDiv'>
+        {handcrafted.map(item =>(
+            <div className='handcraftedItems'>
+              <div className='img-Div'><img className='handcraftedImg' src={item.url} alt="" /></div>
+              <h4>{item.heading}</h4>
+            </div>
+        ))}
+          </div>
+
+        </div>
+      </div>
+   
     </div>
 
   )

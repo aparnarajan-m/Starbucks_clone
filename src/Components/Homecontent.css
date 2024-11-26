@@ -1,4 +1,4 @@
-.home-contents{
+.home-contents {
     width: 100%;
     height: 767px;
     /* height: 100vh; */
@@ -7,50 +7,55 @@
     align-items: center;
     box-sizing: border-box;
     margin-top: 83px;
-    background-color: red;
+    /* background-color: red; */
+    overflow: hidden;
 }
-.home-contentTop{
+
+.home-contentTop {
     width: 100%;
     height: 11.7%;
     /* height: 86px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(30,57,50);
-    color: rgb(242,239,222);
+    background-color: rgb(30, 57, 50);
+    color: rgb(242, 239, 222);
     font-size: 14px;
     font-weight: 400px;
-    font-family: 
-    SoDoSans_Semibold (woff2)
-    Helvetica
-    sans-serif;
+    font-family:
+        SoDoSans_Semibold (woff2) Helvetica sans-serif;
 }
-.top1{
+
+.top1 {
     width: 40%;
     display: flex;
     justify-content: start;
 }
-.top2{
+
+.top2 {
     width: 40%;
     display: flex;
     justify-content: end;
 }
-h5{  
-font-size: 20px;
-font-weight: 300px;
+
+h5 {
+    font-size: 20px;
+    font-weight: 300px;
 }
-.homebutton1{
-    width: 15%; 
+
+.homebutton1 {
+    width: 15%;
     padding: 12px;
     font-size: 12px;
     font-weight: bold;
-    color: rgb(242,239,222);
+    color: rgb(242, 239, 222);
     border-radius: 50px;
-    border: 1px solid rgb(242,239,222);
+    border: 1px solid rgb(242, 239, 222);
     background-color: transparent;
 }
+
 /* ----------------------------------------------------- */
-.home-contentBottom{
+.home-contentBottom {
     width: 100%;
     height: 41%;
     /* height: 300px; */
@@ -58,49 +63,54 @@ font-weight: 300px;
     align-items: center;
     justify-content: center;
     /* position: relative; */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
-.home-contentBottomSub{
+
+.home-contentBottomSub {
     width: 83%;
     height: 245px;
     border-radius: 10px;
-    background-color:rgb(241,94,39);
+    background-color: rgb(241, 94, 39);
     color: white;
     font-size: 20px;
-    font-family: 
-    SoDoSans_Regular (woff2)
-    Helvetica
-    sans-serif;
+    /* z-index: -1; */
+    font-family:
+        SoDoSans_Regular (woff2) Helvetica sans-serif;
     display: flex;
     align-items: center;
     position: relative;
     box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 
 }
-.BottomSub1{
+
+.BottomSub1 {
     width: 12%;
     height: 100%;
     display: flex;
     align-items: center;
     /* background-color: blue; */
 }
-.dashboardImg1{
+
+.dashboardImg1 {
     width: 65%;
 }
-.contentBottoms{
+
+.contentBottoms {
     width: 88%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-.BottomSub2{
+
+.BottomSub2 {
     height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     /* background-color: blueviolet; */
 }
-.BottomSub3{
+
+.BottomSub3 {
     width: 97%;
     height: 40%;
     display: flex;
@@ -108,7 +118,8 @@ font-weight: 300px;
     align-items: center;
     /* background-color: brown; */
 }
-.BottomSub3-content{
+
+.BottomSub3-content {
     width: 30%;
     height: 55%;
     display: flex;
@@ -116,25 +127,92 @@ font-weight: 300px;
     justify-content: space-around;
     /* background-color: blanchedalmond; */
 }
-.BottomSub3-btn{
+
+.BottomSub3-btn {
     padding: 1.5% 6%;
     border-radius: 30px;
     /* outline: none; */
     border-style: none;
     background-color: white;
 }
-.arrowleft-btn, .arrowright-btn{
+
+.arrowleft-btn,
+.arrowright-btn {
     padding: 11px;
     border-radius: 60%;
     border-style: none;
     background-color: white;
 }
-.arrowleft-btn{
+
+.arrowleft-btn {
     position: absolute;
     right: 90%;
     z-index: 1;
 }
-.arrowright-btn{
+
+.arrowright-btn {
     position: absolute;
     left: 90%;
+}
+
+/* -------------------------------hnadcrafted---------------------------------- */
+.handcraftedDiv {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
+.handcraftedSubdiv {
+    width: 83%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: chartreuse; */
+}
+.headingdiv{
+    width: 100%;
+    height: 11%;
+}
+.handcraftedSubdiv h1 {
+    font-size: 2rem;
+    color: #2e2e2e;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.handcraftedItemsDiv {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: chocolate; */
+}
+.handcraftedItems {
+    width: 16.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    /* border: 1px solid white;
+    background-color: blue; */
+}
+.handcraftedImg {
+    width: 55%;
+    border-radius: 50%;
+}
+.handcraftedImg:hover {
+    border: 1px solid rgb(3, 71, 3);
+    transform: scale(1);
+}
+.handcraftedItems h4 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 600;
 }
