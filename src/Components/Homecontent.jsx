@@ -48,7 +48,7 @@ function Homecontent() {
           <div className='BottomSub3'>
             <div className='BottomSub3-content'>
               <h6>starting from</h6>
-              <h3>$350.00</h3>
+              <h3>₹ 350.00</h3>
             </div>
             <button className='BottomSub3-btn'>Know More</button>
             </div>

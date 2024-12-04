@@ -1,30 +1,32 @@
-*{
-    box-sizing: border-box;
-    
-}
 .main-footer{
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
-    padding: 0px;
+    width: 100%;
+    height: 925px;
     background-color: rgb(14,56,44);
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
-}
-.main-footer::-webkit-scrollbar{
-    display: none;
+    overflow: hidden;
 }
 .footer-container{
     width: 85%;
+    /* background-color: aquamarine; */
 }
 .footer-sec1{
     width: 100%;
-    height: 115%;
+    height: 76%;
     display: flex;
     justify-content: space-between;
     padding-top: 9%;
     color: #fff;
+    /* background-color: cadetblue; */
+}
+.footer-sec2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    color: #fff;
+    /* background-color: blue; */
 }
 .footer-logo{
     width: 108%;
@@ -40,6 +42,7 @@
     line-height: 24px;
 }
 .footer-Li{
+    font-size: .95rem;
     padding-bottom: 30px;
 }
 a{
@@ -54,7 +57,7 @@ a{
     line-height: 24px;
 }
 .socialmeadia-heading{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-bottom: 28px;
 }
 .socialmediaImg-div{
@@ -73,14 +76,7 @@ a{
     width: 110%;
     margin-bottom: 4%;
 }
-.footer-sec2{
-    display: flex;
-    width: 100%;
-    height: 13%;
-    justify-content: space-between;
-    border-top: 1px solid gray;
-    color: #fff;
-}
+
 .sec2-bottom1, .sec2-bottom2{
     height: 50%;
     display: flex;
@@ -89,16 +85,17 @@ a{
 .sec2-bottom1-ul{
     display: flex;
     align-items: center;
-    font-size: .95em;
+    font-size: .8rem;
     margin: .125rem .625rem;
     gap: 10px ; 
 }
 .bottomLi{
     padding: .1rem .5rem;
+    font-size: .8rem;
 }
 .liborder{
     border-right: 1px solid #b3b3b3;
 }
 .bottom2Li{
-    font-size: .75em;
+    font-size: .6em;
 }

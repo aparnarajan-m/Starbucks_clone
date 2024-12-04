@@ -1,0 +1,129 @@
+.homeCard {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 235, 233);
+}
+.Sub-homeCard {
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.homecardsec1 {
+    width: 100%;
+    height: 24%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: chocolate; */
+}
+.homecardsec1 h1{
+    font-size: 1.86rem;
+    color: rgb(30,57,50);
+}
+.homecardsec1 h5{
+    font-size: 0.96rem;
+    color: rgb(10,127,94);
+}
+.homecardsec2 {
+    width: 100%;
+    height: 73%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    gap: 10px;
+    position: relative;
+    /* background-color: red;    */
+}
+.card-Div {
+    width: 31%;
+    height: 73%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+}
+.topSec {
+    width: 90%;
+    height: 68%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    /* background-color: rgb(107, 100, 113); */
+}
+.bottomsec {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    /* background-color: rgb(31, 19, 42); */
+}
+.img1-Div {
+    width: 23%;
+    height: 75%;
+    border-radius: 10px;
+    /* background-color: blanchedalmond; */
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.img2{
+    width: 6%;
+}
+.topContent {
+    width: 74%;
+    height: 75%;
+    /* background-color: cadetblue; */
+}
+.topContent h6{
+    font-size: .6rem;
+    color: rgb(170,171,173);
+}
+.topContent h2{
+    font-size: 1rem;
+}
+.bottomsec p{
+    font-size: large;
+    font-weight: bold;
+}
+.bottomsec button {
+    padding: 8px 23px;
+    border-radius: 20px;
+    font-size: .9rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 117, 74);
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardarrowleft-btn,
+.cardarrowright-btn {
+    padding: 10px;
+    position: absolute;
+    top: 38%;
+    border-radius: 60%;
+    border-style: none;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardarrowleft-btn {
+    right: 96.5%;
+}
+.cardarrowright-btn {
+    left: 96.5%;
+}

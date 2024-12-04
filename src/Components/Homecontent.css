@@ -1,7 +1,6 @@
 .home-contents {
     width: 100%;
     height: 767px;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,11 +9,9 @@
     /* background-color: red; */
     overflow: hidden;
 }
-
 .home-contentTop {
     width: 100%;
     height: 11.7%;
-    /* height: 86px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +22,6 @@
     font-family:
         SoDoSans_Semibold (woff2) Helvetica sans-serif;
 }
-
 .top1 {
     width: 40%;
     display: flex;
@@ -38,8 +34,8 @@
     justify-content: end;
 }
 
-h5 {
-    font-size: 20px;
+.top1 h5 {
+    font-size: 1rem;
     font-weight: 300px;
 }
 
@@ -58,7 +54,6 @@ h5 {
 .home-contentBottom {
     width: 100%;
     height: 41%;
-    /* height: 300px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +68,6 @@ h5 {
     background-color: rgb(241, 94, 39);
     color: white;
     font-size: 20px;
-    /* z-index: -1; */
     font-family:
         SoDoSans_Regular (woff2) Helvetica sans-serif;
     display: flex;
@@ -82,7 +76,6 @@ h5 {
     box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.15);
 
 }
-
 .BottomSub1 {
     width: 12%;
     height: 100%;
@@ -90,18 +83,15 @@ h5 {
     align-items: center;
     /* background-color: blue; */
 }
-
 .dashboardImg1 {
     width: 65%;
 }
-
 .contentBottoms {
     width: 88%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-
 .BottomSub2 {
     height: 60%;
     display: flex;
@@ -109,7 +99,12 @@ h5 {
     justify-content: space-evenly;
     /* background-color: blueviolet; */
 }
-
+.BottomSub2 p{
+    font-size: 1rem;
+}
+.BottomSub2 h2{
+    /* font-size: 2rem; */
+}
 .BottomSub3 {
     width: 97%;
     height: 40%;
@@ -127,7 +122,6 @@ h5 {
     justify-content: space-around;
     /* background-color: blanchedalmond; */
 }
-
 .BottomSub3-btn {
     padding: 1.5% 6%;
     border-radius: 30px;
@@ -135,7 +129,6 @@ h5 {
     border-style: none;
     background-color: white;
 }
-
 .arrowleft-btn,
 .arrowright-btn {
     padding: 11px;
@@ -143,13 +136,11 @@ h5 {
     border-style: none;
     background-color: white;
 }
-
 .arrowleft-btn {
     position: absolute;
     right: 90%;
     z-index: 1;
 }
-
 .arrowright-btn {
     position: absolute;
     left: 90%;
@@ -176,7 +167,7 @@ h5 {
     height: 11%;
 }
 .handcraftedSubdiv h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #2e2e2e;
     margin-bottom: 20px;
     font-weight: 600;
@@ -211,7 +202,7 @@ h5 {
     transform: scale(1);
 }
 .handcraftedItems h4 {
-    font-size: 1.1rem;
+    font-size: .98rem;
     text-align: center;
     margin-top: 5px;
     font-weight: 600;
