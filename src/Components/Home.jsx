@@ -11,9 +11,9 @@ function Home() {
     <div className='home-Div'>
       <Navbar/>
       <Homecontent/>
-      <Homecard/>
-      <HomecoffeeCulture/>
-      <Footer/>
+      {/* <Homecard/> */}
+      {/* <HomecoffeeCulture/> */}
+      {/* <Footer/> */}
     </div>
   )
 }
