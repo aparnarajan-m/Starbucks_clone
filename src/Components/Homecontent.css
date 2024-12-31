@@ -19,7 +19,6 @@
     color: rgb(242, 239, 222);
     font-size: 14px;
     font-weight: 400px;
-
 }
 .top1 {
     width: 40%;
@@ -28,7 +27,7 @@
 }
 
 .top2 {
-    width: 40%;
+    width: 75%;
     display: flex;
     justify-content: end;
 }
@@ -39,7 +38,7 @@
 }
 
 .homebutton1 {
-    width: 15%;
+    width: 8%;
     padding: 12px;
     font-size: 12px;
     font-weight: bold;
@@ -208,61 +207,53 @@
 }
 
 
-/* Default Styles (Desktop First) */
-
 /* Adjustments for Tablets */
 @media (max-width: 1024px) {
     .home-contents {
-        /* width: 100%; */
-        height: auto;
-        margin-top: 182px;
-        background-color: red;
+        height: 600px;
     }
     .home-contentTop {
-        height: 50px;
+        height: 70px;
         font-size: 12px;
     }
-    .homebutton1{
-        width: 110px;
-        padding: 6px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .BottomSub2 h2{
+        font-size: 1.38rem;
     }
-
-    /* .top1, .top2 {
-        width: 45%;
-    } */
-    /* .homebutton1 {
+    .BottomSub3 h3{
+        font-size: 1.3rem;
+    }
+    .handcraftedImg{
+        margin-top: 35px;
+        width: 75%;
+    }
+    .homebutton1 {
         width: 20%;
         padding: 10px;
         font-size: 10px;
-    } */
-    /* .home-contentBottomSub {
-        height: 200px;
+    }
+    .home-contentBottomSub {
+        height: 215px;
         font-size: 18px;
-    } */
-    /* .BottomSub3-content {
-        width: 40%;
-    } */
+    }
+    .headingdiv h1{
+    font-size: 1.45rem;
+    }
 }
 
 /* Adjustments for Mobile */
-/* @media (max-width: 768px) {
-    .home-contents {
-        margin-top: 40px;
+@media (max-width: 768px) {
+    .home-contents{
+        /* background-color: red; */
     }
     .home-contentTop {
-        flex-direction: column;
-        height: auto;
-        text-align: center;
+        margin-top: 50px;
     }
     .top1, .top2 {
         width: 100%;
         justify-content: center;
     }
     .homebutton1 {
-        width: 80%;
+        width: 12%;
         padding: 8px;
         font-size: 10px;
     }
@@ -283,27 +274,27 @@
     .arrowleft-btn, .arrowright-btn {
         display: none;
     }
-} */
+}
 
 /* Small Mobile Adjustments */
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
     .home-contents {
-        padding: 10px;
+        /* padding: 10px; */
     }
     .home-contentTop {
-        font-size: 10px;
+        /* font-size: 10px; */
     }
     .homebutton1 {
+        width: 20%;
         font-size: 9px;
-        padding: 6px;
     }
     .home-contentBottomSub {
         font-size: 14px;
     }
     .BottomSub2 p {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
     .BottomSub3-btn {
         padding: 1.2% 4%;
     }
-} */
+}

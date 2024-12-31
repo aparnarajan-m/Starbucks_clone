@@ -25,10 +25,8 @@ function Homecontent() {
     <div className='home-contents'>
 
       <div className='home-contentTop'>
-        <div className='top1'><h5>Starbucks</h5></div>
         <div className='top2'><button className='homebutton1'>Know More</button></div>
       </div>
-
 
       <div className='home-contentBottom'>
         <div><button className='arrowleft-btn'><img src={arrowLeft} alt="" /></button></div>
